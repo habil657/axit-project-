@@ -1,0 +1,313 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+a,a: hover{
+	text-decoration: none !important ;
+	cursor: pointer;
+
+}
+
+ ul li{
+	padding: 0;
+	margin: 0;
+
+}
+
+header{
+	background: #000000;
+}
+
+
+
+.nav-item{
+	margin-left: 16px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.8);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #FDCA40;
+}
+
+/*sarvice start */
+
+.baner{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/baner.png) !inportant;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.baner-left{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+
+}  
+
+.baner-left h2{
+	font-family: 'Raleway', sans-serif;
+	width:300 !important;
+	color: ;
+	padding-top: 20px;
+	/*margin-right: 5px;*/
+}
+
+.line{
+	width: 60px;
+	height: 2px;
+	background: #ff9b51;
+	margin: 10px 0px;
+}
+
+.baner-left p{
+	font-family: 'Raleway', sans-serif;
+	color: #ccc;
+	font-size: 300;
+	margin-bottom: 32px;
+}
+
+
+.baner-left .b-btn{
+	padding: 8px 16px;
+	
+	color: #ccc;
+	border: 1px 1px  #cccccc;
+}
+
+.baner-left .b-btn:hover{
+	background: #000000;
+	color: #ff9b51;
+}
+
+
+.baner-right{
+	height: 90vh; 
+	display: table-cell;
+	vertical-align: middle;
+
+}  
+.form-box{
+	background: #333333;
+	border-radius: 6px;
+}
+
+.f-header{
+	background: #757171;
+	padding: 10px;
+	text-align: center;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.f-header h3{
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.f-header h3 span{
+	color: #ff9b51;
+	text-transform: uppercase;
+
+}
+
+.f-body{
+	padding: 30px;
+}
+
+.f-body input{
+	padding: 10px;
+	margin: 8px 0px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.f-body input:focus{
+	outline: none;
+	border-bottom: 1px solid  #ff9b51;
+}
+.f-footer{
+	color: white !inportant;
+	font-family: 'Open Sans', sans-serif;
+	background: #ff9b51;
+	text-align: center;
+
+}
+
+.f-footer input{
+	width: 100%;
+	padding: 8px;
+	background: #ff9b51;
+	border: none;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+ /* baner end here */
+
+
+ /*social media start here*/
+
+.social-media{
+	width: 100%;
+	padding: 15px 0;
+}
+.sm-left{
+	text-align: left;
+
+}
+.sm-left h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #666666;
+	font-weight: 600;
+}
+
+.sm-left p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #c8c9ca;
+
+}
+
+
+.sm-right{
+	text-align: right;
+	padding-top: 15px;
+}
+
+
+
+.sm-right ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 40px;
+	
+
+}
+
+.sm-right ul li a i{
+	 color: #cccccc !important;
+	 font-size: 40px;
+}
+
+/*social media end here*/
+
+  /*features start here */
+
+.main-feature{
+	width: 100%;
+	padding: 120px 0px;
+	background-color: #f8efef;
+	box-shadow: inset 4px 0px 14px rgba(0, 0, 0, 0.3);
+}
+.mf-left ul{
+	padding: 0;
+}
+
+.mf-left ul li{
+	list-style: none;
+	color: #fff;
+	background: #333333;
+	width: 80px;
+	height: 80px !important;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+.mf-left ul .selected{
+	background: #ff8b38;
+}
+.mf-left ul li:hover{
+	cursor: pointer;
+	background: #ff8b38;
+}
+.mf-left ul li:first-child{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.mf-left ul li:last-child{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.mf-middil .b-btn{
+	background-color: #ff8b38;
+	border: none;
+	color: #fff;
+	padding: 3px 8px;
+	border-radius: 3px;
+}
+.mf-middil h5{
+ 	color: #oooooo;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 600;
+ 	font-size: 20px !important;
+
+}
+
+.mf-middil p{
+	font-family: 'Open Sans', sans-serif;
+	color: #cbcccd;
+	font-weight: 300;
+	font-size: 14px;
+	margin-right: 20px;
+}
+/*features end here */
+
+/*sublist start here */
+
+.sub-list{
+	width: 100%;
+	padding: 120px 0px;
+
+}
+.up-right h5{
+	font-family: 'Open Sans', sans-serif;
+	color: #212121;
+	font-size: 15px;
+	width: 400;
+
+}
+.up-right p{
+	font-family: 'Open Sans', sans-serif;
+	color: #cbcccd;
+	font-size: 14px;
+}
+
+.down-right ul li{
+	list-style: none;
+	margin-right: 0;
+	
+}
+.icon ul li a i{
+	color:  #ff8b38 !important;
+	border: 25px  25px #ff8b38 !important;
+
+  background: red;
+
+}
+}
+
+
+/*sublist end here*/ 
